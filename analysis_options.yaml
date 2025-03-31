@@ -1,0 +1,26 @@
+# This line includes the default set of linting rules from the flutter_lints package.
+include: package:flutter_lints/flutter.yaml
+
+# Linter configuration where you can specify which rules to enable or disable.
+linter:
+  rules:
+    # Disables the rule that warns against using 'print' in your code.
+    avoid_print: false
+
+    # Disables the rule that suggests using constant constructors for immutable classes.
+    prefer_const_constructors_in_immutables: false
+
+    # Disables the rule that suggests using constant constructors where possible.
+    prefer_const_constructors: false
+
+    # Disables the rule that recommends using const literals when creating immutable objects.
+    prefer_const_literals_to_create_immutables: false
+
+    # Disables the rule that suggests using 'final' for fields that aren't reassigned.
+    prefer_final_fields: false
+
+    # Enables the rule that flags unnecessary 'break' statements (e.g., inside a switch-case block with a single statement).
+    unnecessary_breaks: true
+
+    # Disables the rule that suggests always using a 'key' parameter in widget constructors.
+    use_key_in_widget_constructors: false

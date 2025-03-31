@@ -1,0 +1,50 @@
+# This is the name of the app you're creating.
+name: namer_app
+
+# A short description of your project.
+description: A new Flutter project.
+
+# This line prevents the project from being published to pub.dev (a repository for Flutter packages).
+# If you want to publish the app to pub.dev later, remove this line.
+publish_to: 'none'  # Remove this line if you wish to publish to pub.dev
+
+# Versioning for your project. The first number is the version of your app.
+# The second number is the build number that should increase with each release.
+version: 0.0.1+1
+
+# The environment specifies which versions of the SDK this app supports.
+# Here, you're specifying that the app is using Flutter SDK 3.6.0 or higher.
+environment:
+  sdk: ^3.6.0  # ^ means any version that is compatible with 3.6.0 (including 3.6.x)
+
+# Dependencies are libraries that your app needs to run. 
+# These are packages you use to add functionality to your app.
+
+dependencies:
+  flutter:
+    sdk: flutter  # This tells Flutter that the app will use the Flutter SDK.
+
+  # The 'english_words' package is used for generating random words.
+  # This is commonly used in a "word pair generator" example.
+  english_words: ^4.0.0  # ^ allows any compatible version above 4.0.0.
+
+  # 'provider' is a package that helps with state management in Flutter.
+  # It makes it easier to manage app data and share it across different parts of your app.
+  provider: ^6.1.2
+
+# Dev dependencies are packages needed only during development and testing.
+# These dependencies are not included when building the app for production.
+
+dev_dependencies:
+  test: ^1.16.0
+  flutter_test:
+    sdk: flutter
+ # The package needed for testing Flutter apps.
+
+  # 'flutter_lints' provides recommended linting rules for Flutter projects.
+  # Linting helps you write clean, consistent code.
+  flutter_lints: ^5.0.0
+
+# Flutter-specific configuration.
+flutter:
+  uses-material-design: true  # This enables Material Design, which is a set of design guidelines for creating beautiful apps.
