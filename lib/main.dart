@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         title: 'Namer App',  // App's title
         theme: ThemeData(
           useMaterial3: true,  
-          colorScheme: ColorScheme.fromSeed(seedColor: Color.fromRGBO(211, 102, 39, 1)), // Custom theme color
+          colorScheme: ColorScheme.fromSeed(seedColor: Color.fromRGBO(200, 118, 70, 1)), // TODO: figure out why the color is not reflecting the exact color I select
         ),
         home: MyHomePage(),  // Home page of the app
       ),
