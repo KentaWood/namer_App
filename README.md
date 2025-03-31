@@ -1,16 +1,15 @@
 # namer_app
 
-A new Flutter project.
+A new Flutter project following the "Your first Flutter app" Google Codelab [https://codelabs.developers.google.com/codelabs/flutter-codelab-first](https://codelabs.developers.google.com/codelabs/flutter-codelab-first)
 
-## Getting Started
+## What it does
 
-This project is a starting point for a Flutter application.
+Makes a random word pair and adds favorites.
 
-A few resources to get you started if this is your first Flutter project:
+## My additions
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Added tooltips for the favorite and like button and changing the favorites tooltip based on whether the current word pair is selected or not.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Test file
+
+Contains basic test cases for the application made.
