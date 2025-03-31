@@ -12,4 +12,4 @@ Added tooltips for the favorite and like button and changing the favorites toolt
 
 ## Test file
 
-Contains basic test cases for the application made.
+Contains basic test cases for the application made, located in test/widget_test.dart.
